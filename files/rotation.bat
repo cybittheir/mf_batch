@@ -9,6 +9,10 @@ set allsub=%rsub%all\
 
 set result=%rsub%[result_file_name]
 
+IF NOT EXIST %logfile% (
+	echo. > %logfile%
+)
+
 if %minnow% GEQ 50 (
 	set sor_file=[filename_1]
 
@@ -57,4 +61,4 @@ if %size% GEQ 4000 (
 
 :oef
 
-REM Fininsh
+REM Finish
