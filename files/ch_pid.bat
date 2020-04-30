@@ -1,11 +1,14 @@
+REM by Aleksandr Lovin aka cybittheir
+REM 2020
+
 call ..\b_sets.bat
 
 set file="%dlog%\tt.log"
 set errfile="%dlog%\notr.log"
 set crashlog="%dlog%\crash.log"
-set pimage=LedStudio.exe
-set proc="LedStudio"
-set err_proc="WINDOWTITLE eq LedStudio.exe - Ошибка приложения"
+set pimage=[exe filename]
+set proc="[proc]"
+set err_proc="WINDOWTITLE eq %pimage% - Ошибка приложения"
 set maxbytesize=1
 
 

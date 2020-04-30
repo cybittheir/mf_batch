@@ -1,3 +1,6 @@
+REM by Aleksandr Lovin aka cybittheir
+REM 2020
+
 call ..\b_sets.bat
 
 set wlog=%srvdir%warn

@@ -1,4 +1,6 @@
 rem @echo off
+REM by Aleksandr Lovin aka cybittheir
+REM 2020
 REM Необходимо пересохранить в кодировке win-1251
 
 @cls

@@ -1,3 +1,6 @@
+REM by Aleksandr Lovin aka cybittheir
+REM 2020
+
 @echo off
 @cls
 set "cfdrv="

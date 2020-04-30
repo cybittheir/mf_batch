@@ -1,3 +1,6 @@
+REM by Aleksandr Lovin aka cybittheir
+REM 2020
+
 @echo on
 
 set /a job_month=%DATE:~3,2%
