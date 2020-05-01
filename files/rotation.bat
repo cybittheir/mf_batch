@@ -14,33 +14,33 @@ IF NOT EXIST %logfile% (
 )
 
 if %minnow% GEQ 50 (
-	set sor_file=[filename_1]
+	set sor_file=[filename_6]
 
 	goto :endcopy
 )
 
 if %minnow% GEQ 40 (
-	set sor_file=[filename_2]
-	goto :endcopy
-)
-
-if %minnow% GEQ 30 (
-	set sor_file=[filename_3]
-	goto :endcopy
-)
-
-if %minnow% GEQ 20 (
-	set sor_file=[filename_4]
-	goto :endcopy
-)
-
-if %minnow% GEQ 10 (
 	set sor_file=[filename_5]
 	goto :endcopy
 )
 
+if %minnow% GEQ 30 (
+	set sor_file=[filename_4]
+	goto :endcopy
+)
+
+if %minnow% GEQ 20 (
+	set sor_file=[filename_3]
+	goto :endcopy
+)
+
+if %minnow% GEQ 10 (
+	set sor_file=[filename_2]
+	goto :endcopy
+)
+
 if %minnow% GEQ 0 (
-	set sor_file=[filename_6]
+	set sor_file=[filename_1]
 	goto :endcopy
 )
 
